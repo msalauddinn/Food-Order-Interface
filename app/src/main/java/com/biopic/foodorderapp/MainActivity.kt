@@ -110,7 +110,6 @@ fun FoodOrder() {
         Spacer(modifier = Modifier.size(7.dp))
         UserDetails(customerName, phoneNumber)
         ChooseFood(foodList, selectedFood)
-        Spacer(modifier = Modifier.size(2.dp))
     }
 }
 
